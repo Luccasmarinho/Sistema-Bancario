@@ -1,3 +1,21 @@
+### API RESTful de um Sistema Bancário
+Esse projeto foi o desafio de segundo módulo do curso de Desenvolvimento de Software com foco em Back-End, da Cubos Academy. Nele, pude desenvolver uma API RESTful de um sistema bancário. Nessa API existem algumas funcionalidades, são elas:
+- Listagem de contas
+- Criação de contas
+- Atualização dos dados do usuário
+- Exclusão da conta
+- Depósito em uma conta
+- Saque de uma conta
+- Transferências entre contas
+- Consulta de saldo
+- Emissão do extrato bancário
+
+Nesse projeto utilizei algumas ferramentas que me ajudaram na construção dessa API, tais como:
+- #### Express (framework que simplifica o desenvolvimento de aplicativos da web, oferecendo recursos e utilitários para criar servidores e APIs de forma eficiente);
+- #### fs/promises (ele permite que você realize operações de leitura e escrita de arquivos de forma assíncrona e trata os resultados como Promises);
+- #### date-fns (biblioteca JavaScript que fornece uma ampla gama de funções para manipular datas e horas de forma flexível e eficaz);
+- #### nodemon (utilitário que monitora os arquivos de um aplicativo Node.js e reinicia automaticamente o servidor sempre que um desses arquivos é modificado).
+
 ![](https://i.imgur.com/xG74tOh.png)
 
 # Desafio Módulo 2 - Back-end
