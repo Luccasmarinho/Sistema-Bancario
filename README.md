@@ -1,4 +1,4 @@
-### API RESTful de um Sistema Bancário
+## API RESTful de um Sistema Bancário
 Esse projeto foi o desafio de segundo módulo do curso de Desenvolvimento de Software com foco em Back-End, da Cubos Academy. Nele, pude desenvolver uma API RESTful de um sistema bancário. Nessa API existem algumas funcionalidades, são elas:
 - Listagem de contas
 - Criação de contas
@@ -10,11 +10,23 @@ Esse projeto foi o desafio de segundo módulo do curso de Desenvolvimento de Sof
 - Consulta de saldo
 - Emissão do extrato bancário
 
-Nesse projeto utilizei algumas ferramentas que me ajudaram na construção dessa API, tais como:
+## Nesse projeto utilizei algumas ferramentas que me ajudaram na construção dessa API, tais como:
 - #### Express (framework que simplifica o desenvolvimento de aplicativos da web, oferecendo recursos e utilitários para criar servidores e APIs de forma eficiente);
 - #### fs/promises (ele permite que você realize operações de leitura e escrita de arquivos de forma assíncrona e trata os resultados como Promises);
 - #### date-fns (biblioteca JavaScript que fornece uma ampla gama de funções para manipular datas e horas de forma flexível e eficaz);
 - #### nodemon (utilitário que monitora os arquivos de um aplicativo Node.js e reinicia automaticamente o servidor sempre que um desses arquivos é modificado).
+
+# Como iniciar o projeto?
+Para iniciar o projeto no terminal, você precisará fazer o seguinte:
+- npm init ou npm init -y
+- npm install express
+- npm install nodemon
+- npm install date-fns --save
+
+# Como executar o projeto?
+Para execução e testes desse projeto, eu utilizei o Insomnia através das rotas abaixo:
+
+
 
 ![](https://i.imgur.com/xG74tOh.png)
 
