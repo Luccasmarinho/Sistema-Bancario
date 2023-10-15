@@ -166,15 +166,12 @@ async function deletarConta(req, res) {
         const objJs = await lendoArquivo(arquivo)
         const { contas } = objJs;
 
-        const achandoNumeroDaConta = contas.find((elemento) => elemento.numero === numeroConta)
-
+        const achandoNumeroDaConta = contas.find((elemento) => elemento.numero === numeroConta) 
+        
         if (!achandoNumeroDaConta) {
             return res.status(404).json({ Mensagem: "Número da conta não encontrado." })
         }
-
-        const achandoSaldoDaConta = contas.find((elemento) => elemento.saldo !== 0)
-
-        if (achandoSaldoDaConta) {
+        if (achandoNumeroDaConta.saldo !== 0) {
             return res.status(400).json({ Mensagem: "A conta só pode ser removida se o saldo for zero!" })
         }
 
